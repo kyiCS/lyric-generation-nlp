@@ -1,24 +1,20 @@
-# lyric-generation-nlp
-- Dawson Sargent, Chenghui Song, Kelvin Yi
-
+## lyric-generation-nlp
+By Dawson Sargent, Chenghui Song, Kelvin Yi
 The goal for this project is to generate lyrics using different NLP text generation models and see how they compare to real lyrics and each other. 
 
-#### Dataset:
-#### 2 csv files (lyrics-data.csv and artists-data.csvfrom) from:
-https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyrics-data.csv
+### Dataset:
+2 csv files (lyrics-data.csv and artists-data.csvfrom) from: https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyrics-data.csv
 
+### Models
 #### Models for Lyric Generation:
 - Cell-based RNN (Chenghui)
 - LSTM with Markov chains (Chenghui)
 - GPT-2 (Dawson)
-
 #### Models for Lyric Classification:
 - Logistic Regression, Decision Tree, Random Forest, SVC (Kelvin)
-
 ### Model evaluation: 
 - BERTScore (Kelvin)
 - BLEURT (Kelvin)
-
 
 ## Runing Instructions
 - Find the models in Jupyter notebook files staring with "models_". 
