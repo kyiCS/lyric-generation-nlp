@@ -1,9 +1,7 @@
 # lyric-generation-nlp
 - Dawson Sargent, Chenghui Song, Kelvin Yi
-<br>
 
-## Aim: Generate artificial text to mimic song lyrics. 
-<br>
+The goal for this project is to generate lyrics using different NLP text generation models and see how they compare to real lyrics and each other. 
 
 #### Dataset:
 #### 2 csv files (lyrics-data.csv and artists-data.csvfrom) from:
