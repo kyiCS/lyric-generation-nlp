@@ -1,7 +1,7 @@
-## lyric-generation-nlp
+## lyric-generation-nlp 🎵
 By Dawson Sargent, Chenghui Song, Kelvin Yi
 
-The goal for this project is to generate lyrics using different NLP text generation models and see how they compare to real lyrics and each other. 
+The goal for this project is to generate lyrics using different NLP text generation models and see how they compare to real lyrics and each other. 🎵
 
 ### Dataset:
 2 csv files (lyrics-data.csv and artists-data.csvfrom) from: https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyrics-data.csv
