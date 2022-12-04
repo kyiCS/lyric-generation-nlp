@@ -6,7 +6,7 @@
 <br><br>
 
 ### Dataset:
-##### 2 csv files (lyrics-data.csv and artists-data.csvfrom) from:
+#### 2 csv files (lyrics-data.csv and artists-data.csvfrom) from:
 https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyrics-data.csv
 
 ### Models for Lyric Generation:
@@ -24,7 +24,7 @@ https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyri
 
 ## Runing Instructions
 - Find the models in Jupyter notebook files staring with "models_". 
-- Download all the necessary data found in the .csv files.
+- Download all the necessary datasets from kaggle and the repository.
 - Download the dependencies and imports listed in the files.
 - Run the Jupyter notebook.
 
