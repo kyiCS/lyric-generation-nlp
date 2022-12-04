@@ -2,20 +2,32 @@
 - Dawson Sargent, Chenghui Song, Kelvin Yi
 <br><br>
 
-### Aim: generate artifitial text to mimic song lyrics 
+### Aim: Generate artificial text to mimic song lyrics. 
 <br><br>
 
-### dataset: 2 csv files (lyrics-data.csv and artists-data.csvfrom) from <br>
+### Dataset:
+##### 2 csv files (lyrics-data.csv and artists-data.csvfrom) from:
 https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyrics-data.csv
 
-### Models:
-- Cell-based RNN, Jupyter notebook file
-- LSTM with Markov chains, Jupyer notebook file
-- GPT-2
+### Models for Lyric Generation:
+- Cell-based RNN (Chenghui)
+- LSTM with Markov chains (Chenghui)
+- GPT-2 (Dawson)
+
+### Models for Lyric Classification:
+- Logistic Regression, Decision Tree, Random Forest, SVC (Kelvin)
 
 ### Model evaluation: 
-- BLEU
-- BLEURT
+- BERTScore (Kelvin)
+- BLEURT (Kelvin)
+
+
+## Runing Instructions
+- Find the models in Jupyter notebook files staring with "models_". 
+- Download all the necessary data found in the .csv files.
+- Download the dependencies and imports listed in the files.
+- Run the Jupyter notebook.
+
 
 ### references:
 - Create Your Own Artificial Shakespeare in 10 Minutes with Natural Language Processing <br>
@@ -35,6 +47,9 @@ https://machinelearningmastery.com/calculate-bleu-score-for-text-python/
 
 - How to calculate BLEU Score in Python?<br>
 https://www.digitalocean.com/community/tutorials/bleu-score-in-python 
+
+- Metric: bert_score<br>
+https://huggingface.co/spaces/evaluate-metric/bertscore
 
 - BLEURT: a Transfer Learning-Based Metric for Natural Language Generation<br>
 https://github.com/google-research/bleurt 
