@@ -1,20 +1,20 @@
 # lyric-generation-nlp
 - Dawson Sargent, Chenghui Song, Kelvin Yi
-<br><br>
+<br>
 
-### Aim: Generate artificial text to mimic song lyrics. 
-<br><br>
+## Aim: Generate artificial text to mimic song lyrics. 
+<br>
 
-### Dataset:
+#### Dataset:
 #### 2 csv files (lyrics-data.csv and artists-data.csvfrom) from:
 https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres?select=lyrics-data.csv
 
-### Models for Lyric Generation:
+#### Models for Lyric Generation:
 - Cell-based RNN (Chenghui)
 - LSTM with Markov chains (Chenghui)
 - GPT-2 (Dawson)
 
-### Models for Lyric Classification:
+#### Models for Lyric Classification:
 - Logistic Regression, Decision Tree, Random Forest, SVC (Kelvin)
 
 ### Model evaluation: 
